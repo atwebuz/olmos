@@ -1,0 +1,135 @@
+.modalaliz{
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    outline: 0;
+    padding: 30px;
+    border-radius:10px ;
+    margin: auto;
+    display: none;
+    background: #fff;
+    overflow: hidden;
+    z-index: 1000;
+}
+.closeModal{
+    display: none;
+}
+.openModal{
+    display: block;
+}
+.quiz-container{
+    width: 100%;
+    padding: 0 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.quiz-header #question{
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+
+}
+.quiz-container .button_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.quiz-container .button_block #submit{
+    position: relative;
+    bottom: 20px;
+    margin: 30px 0;
+    padding: 12px 60px;
+    border: none;
+    outline: none;
+    background: #0c4128;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.quiz-container .button_block #submitMath{
+    position: relative;
+    bottom: 20px;
+    margin: 30px 0;
+    padding: 12px 60px;
+    border: none;
+    outline: none;
+    background: #0c4128;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.quiz-container .button_block #submitFiz{
+    position: relative;
+    bottom: 20px;
+    margin: 30px 0;
+    padding: 12px 60px;
+    border: none;
+    outline: none;
+    background: #0c4128;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.quiz-container .button_block #submitRus{
+    position: relative;
+    bottom: 20px;
+    margin: 30px 0;
+    padding: 12px 60px;
+    border: none;
+    outline: none;
+    background: #0c4128;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#dismit{
+    position: absolute;
+    bottom: 20px;
+    margin: 30px 0;
+    padding: 12px 60px;
+    border: none;
+    outline: none;
+    background: darkred;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#closeX{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.quiz-header ul{
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+.quiz-header ul li{
+padding: 20px 0;
+}
+#englishLevelFromContact{
+    color: darkred;
+}
